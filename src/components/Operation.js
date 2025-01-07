@@ -4,6 +4,7 @@ function Operation() {
     const [input1, setInput1] = useState("");
     const [input2, setInput2] = useState("");
     const [output, setOutput] = useState("");
+    // eslint-disable-next-line no-unused-vars
     const [operation, setOperation] = useState("Addition"); // Example operation, can be passed as a prop or from state
     const username = "Mahesh"; // This should come from the registration data or context
 
